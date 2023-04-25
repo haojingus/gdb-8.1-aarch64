@@ -1,0 +1,12 @@
+# This file records the configuration of libintl in a form that
+# can be read back in by a configure script in a sister directory.
+# See config/gettext.m4 for its use.
+
+USE_NLS='yes'
+LIBINTL=''
+LIBINTL_DEP=''
+INCINTL=''
+
+XGETTEXT='/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/bin/xgettext'
+GMSGFMT='/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/bin/msgfmt'
+POSUB='po'

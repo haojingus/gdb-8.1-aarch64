@@ -1,0 +1,220 @@
+merge.lo: merge.c \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ sysdep.h config.h ../include/ansidecl.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include/stddef.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/features.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/features-time64.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timesize.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/long-double.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs-lp64.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include/stdarg.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/typesizes.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time64.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__FILE.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/FILE.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/cookie_io_functions_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn-common.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/types.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clock_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clockid_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/time_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/timer_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdint-intn.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/endian.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endian.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endianness.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/byteswap.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uintn-identity.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/select.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/select.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigset_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigset_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timeval.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timespec.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/thread-shared-types.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/atomic_wide_counter.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_mutex.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_rwlock.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/stat.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stat.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_stat.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include-fixed/bits/statx.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/statx-generic.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_statx_timestamp.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_statx.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/errno.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/errno.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/errno.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/errno.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/error_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/string.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/locale_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdlib.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitflags.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/alloca.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/time.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/time.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timex.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_tm.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_itimerspec.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/unistd.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix_opt.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/environments.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/confname.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_posix.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_core.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include-fixed/bits/unistd_ext.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/resource.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/resource.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_rusage.h \
+ ../include/fopen-same.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/fcntl.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/fcntl.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/fcntl-linux.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_iovec.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/falloc.h \
+ ../include/filenames.h ../include/hashtab.h ../include/ansidecl.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/libintl.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/locale.h \
+ /home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/locale.h \
+ bfd.h ../include/symcat.h elf-bfd.h ../include/elf/common.h \
+ ../include/elf/external.h ../include/elf/internal.h ../include/bfdlink.h \
+ libbfd.h ../include/hashtab.h ../include/libiberty.h
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:
+sysdep.h:
+config.h:
+../include/ansidecl.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include/stddef.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/features.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/features-time64.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/wordsize.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timesize.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/cdefs.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/long-double.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs-lp64.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include/stdarg.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/typesizes.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time64.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__FILE.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/FILE.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/cookie_io_functions_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio_lim.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn-common.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/types.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clock_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clockid_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/time_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/timer_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdint-intn.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/endian.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endian.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endianness.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/byteswap.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uintn-identity.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/select.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/select.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigset_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigset_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timeval.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timespec.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/thread-shared-types.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes-arch.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/atomic_wide_counter.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_mutex.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_rwlock.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/stat.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stat.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/struct_stat.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include-fixed/bits/statx.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/statx-generic.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_statx_timestamp.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_statx.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/errno.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/errno.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/errno.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/errno.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/error_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/string.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/locale_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdlib.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitflags.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/alloca.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-bsearch.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/time.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/time.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timex.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_tm.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_itimerspec.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/unistd.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix_opt.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/environments.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/confname.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_posix.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_core.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/lib/gcc/aarch64-buildroot-linux-gnu/10.3.0/include-fixed/bits/unistd_ext.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/resource.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/resource.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_rusage.h:
+../include/fopen-same.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/fcntl.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/fcntl.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/fcntl-linux.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_iovec.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/falloc.h:
+../include/filenames.h:
+../include/hashtab.h:
+../include/ansidecl.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/libintl.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/locale.h:
+/home/dianyu/dujuan/sail_rk356x_linux_release_v1.3.0_20220620/buildroot/output/sail_rk3568/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/locale.h:
+bfd.h:
+../include/symcat.h:
+elf-bfd.h:
+../include/elf/common.h:
+../include/elf/external.h:
+../include/elf/internal.h:
+../include/bfdlink.h:
+libbfd.h:
+../include/hashtab.h:
+../include/libiberty.h:
